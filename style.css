@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Carter One', cursive;
+}
+
+.heading {
+    background-color: #fb82ffbd;
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+.qrcode-container {
+    background-color: #7fffd4a8;
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#canvas {
+    width: 20rem !important;
+    height: 20rem !important;
+    background-color: whitesmoke;
+}
+
+.message {
+    width: 20rem;
+    height: 2rem;
+    border: .1rem solid grey;
+    outline: none;
+    font-size: 1rem;
+    text-align: center;
+    font-weight: 500;
+}
+
+.generate-button {
+    margin-top: .5rem;
+    width: 20rem;
+    height: 3rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1.5rem;
+    background-color: #ffff7bd1;
+    font-weight: 700;
+}
+
+.generate-button:hover,
+.generate-button:focus,
+.generate-button:active {
+    background-color: #fb82ffbd;
+}
